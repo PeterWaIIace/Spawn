@@ -1,7 +1,14 @@
 # Spawn
 
-## How to start? Call:
+## How to start?
 
+1. Add your gemini key to:
 ```
-python3 -m spawn "make program for android, python running on android which can read gps from tellcom network or gps" --output examples
+# .env
+GOOGLE_API_KEY=<HERE>
+```
+
+2. Call:
+```
+python3 -m spawn "give me hello world!" --output examples
 ```
