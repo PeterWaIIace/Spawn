@@ -72,7 +72,7 @@ def main():
     if program_name is None:
         return None
 
-    copyright_notice = f"# Copyright {datetime.now().year} Piotr Walas \n# This code was generated with spawn: https://github.com/PeterWaIIace/Spawn"
+    copyright_notice = f"# Copyright {datetime.now().year} <Insert your copyrights> \n# This code was generated with spawn: https://github.com/PeterWaIIace/Spawn"
     program = copyright_notice + "\n" + program
     with open(f"{args.output}/"+program_name,'w+') as f:
         f.write(program)
